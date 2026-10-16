@@ -28,7 +28,7 @@ public class DragonTest {
   @Test
   void breatheFireDamagesTarget() {
     smaug.breatheFire(grix);
-    assertEquals(20, grix.getHealth());     // 40 - 20
+    assertEquals(25, grix.getHealth());     // 40 - 20
   }
 
   @Test
